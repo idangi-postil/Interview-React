@@ -10,6 +10,7 @@ export function Navigation({
   const questions = [
     { number: 1, title: "Q1: Component State Management" },
     { number: 2, title: "Q2: Asynchronous State Updates" },
+    { number: 3, title: "Q3: Data Fetching & Performance" },
     // Add more questions here as they are created
   ];
 
