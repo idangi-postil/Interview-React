@@ -273,6 +273,75 @@
   border-top: 1px solid #e5e7eb;
 }
 
+/* Async State Component Styles */
+.async-state-component {
+  border-left: 4px solid #f59e0b;
+}
+
+.log-container {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.log-entry {
+  padding: 5px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.log-entry:last-child {
+  border-bottom: none;
+}
+
+.code-example {
+  background: #1f2937;
+  color: #f9fafb;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.code-example h4 {
+  color: #60a5fa;
+  margin: 10px 0 5px 0;
+  font-size: 1rem;
+}
+
+.code-example pre {
+  margin: 5px 0;
+  overflow-x: auto;
+}
+
+.code-example code {
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.solution-section ul {
+  padding-left: 20px;
+}
+
+.solution-section li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.solution-section code {
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  color: #1f2937;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .components-container {

@@ -9,6 +9,7 @@ export function Navigation({
 }: NavigationProps) {
   const questions = [
     { number: 1, title: "Q1: Component State Management" },
+    { number: 2, title: "Q2: Asynchronous State Updates" },
     // Add more questions here as they are created
   ];
 
