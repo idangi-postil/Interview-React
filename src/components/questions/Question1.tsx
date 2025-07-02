@@ -14,10 +14,7 @@ export function Question1() {
 
       <div className="problem-section">
         <h3>🚨 The Problem</h3>
-        <p>
-          ComponentB and ComponentC each have their own independent counter
-          state. They should share the same counter value.
-        </p>
+
         <div className="components-container">
           <ComponentB />
           <ComponentC />

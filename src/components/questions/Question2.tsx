@@ -37,46 +37,6 @@ export function Question2() {
 
         <AsyncStateComponent />
       </div>
-
-      <div className="solution-section" style={{ display: "none" }}>
-        <h3>✅ The Solution</h3>
-        <p>Key concepts to understand:</p>
-        <ul>
-          <li>
-            <strong>State updates are asynchronous</strong> - you can't
-            immediately read the new value
-          </li>
-          <li>
-            <strong>Use functional updates</strong> -{" "}
-            <code>setState(prevState =&gt; newState)</code>
-          </li>
-          <li>
-            <strong>Use useEffect</strong> to react to state changes
-          </li>
-          <li>
-            <strong>
-              Don't rely on state values immediately after setState
-            </strong>
-          </li>
-        </ul>
-
-        <div className="code-example">
-          <h4>Wrong way:</h4>
-          <pre>
-            <code>{`setCount(count + 1);
-console.log(count); // Shows OLD value!`}</code>
-          </pre>
-
-          <h4>Correct way:</h4>
-          <pre>
-            <code>{`setCount(prevCount => {
-  const newCount = prevCount + 1;
-  console.log(newCount); // Shows NEW value!
-  return newCount;
-});`}</code>
-          </pre>
-        </div>
-      </div>
     </div>
   );
 }
