@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Navigation } from "./components/Navigation";
-import { Question1 } from "./components/questions/Question1";
-import { Question2 } from "./components/questions/Question2";
-import { Question3 } from "./components/questions/Question3";
+import { Question1 } from "./components/questions/Question1/Question1";
+import { Question2 } from "./components/questions/Question2/Question2";
+import { Question3 } from "./components/questions/Question3/Question3";
 import "./components/InterviewStyles.css";
 import "./App.css";
 

@@ -1,4 +1,4 @@
-import { DataFetcherComponent } from "../DataFetcherComponent";
+import { DataFetcherComponent } from "./DataFetcherComponent";
 
 export function Question3() {
   return (

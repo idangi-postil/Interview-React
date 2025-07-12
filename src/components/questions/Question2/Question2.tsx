@@ -1,4 +1,4 @@
-import { AsyncStateComponent } from "../AsyncStateComponent";
+import { AsyncStateComponent } from "./AsyncStateComponent";
 
 export function Question2() {
   return (

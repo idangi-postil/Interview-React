@@ -1,4 +1,4 @@
-import { useClickCounter } from "../hooks/useClickCounter";
+import { useClickCounter } from "../../../hooks/useClickCounter";
 
 export function ComponentC() {
   const { clickCount } = useClickCounter();
