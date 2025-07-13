@@ -44,17 +44,6 @@ export function Question4() {
             <li>Cancelling previous requests when new ones start</li>
           </ul>
         </div>
-
-        <div className="toggle-container">
-          <button
-            onClick={() => setShowFixed(!showFixed)}
-            className={`toggle-btn ${
-              showFixed ? "showing-solution" : "showing-problem"
-            }`}
-          >
-            {showFixed ? "🐛 Show Problem Version" : "✅ Show Fixed Version"}
-          </button>
-        </div>
         <SearchComponent />
       </div>
     </div>

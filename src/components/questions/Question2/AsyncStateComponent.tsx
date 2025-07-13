@@ -4,11 +4,9 @@ export function AsyncStateComponent() {
   const [count, setCount] = useState(0);
   const [log, setLog] = useState<string[]>([]);
 
-  // Buggy function - demonstrates the async state issue
   const handleBuggyIncrement = () => {
     setCount(count + 1);
 
-    // BUG: This will log the OLD value because state updates are async
     console.log("Current count after increment:", count);
 
     setLog((prevLog) => [
@@ -17,10 +15,7 @@ export function AsyncStateComponent() {
     ]);
   };
 
-  // Another buggy example - multiple increments
   const handleMultipleIncrements = () => {
-    // BUG: These will not increment by 3, only by 1
-    // Because all three calls use the same current value of count
     setCount(count + 1);
     setCount(count + 1);
     setCount(count + 1);
