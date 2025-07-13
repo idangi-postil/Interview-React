@@ -3,6 +3,7 @@ import { Navigation } from "./components/Navigation";
 import { Question1 } from "./components/questions/Question1/Question1";
 import { Question2 } from "./components/questions/Question2/Question2";
 import { Question3 } from "./components/questions/Question3/Question3";
+import { Question4 } from "./components/questions/Question4/Question4";
 import "./components/InterviewStyles.css";
 import "./App.css";
 
@@ -17,6 +18,8 @@ function App() {
         return <Question2 />;
       case 3:
         return <Question3 />;
+      case 4:
+        return <Question4 />;
       default:
         return <Question1 />;
     }

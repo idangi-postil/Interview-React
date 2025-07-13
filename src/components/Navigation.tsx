@@ -11,6 +11,7 @@ export function Navigation({
     { number: 1, title: "Q1: Component State Management" },
     { number: 2, title: "Q2: Asynchronous State Updates" },
     { number: 3, title: "Q3: Data Fetching & Performance" },
+    { number: 4, title: "Q4: Race Conditions & Request Management" },
     // Add more questions here as they are created
   ];
 
