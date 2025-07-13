@@ -1,10 +1,6 @@
-import { useState } from "react";
-import { FixedSearchComponent } from "./FixedSearchComponent";
 import { SearchComponent } from "./SearchComponent";
 
 export function Question4() {
-  const [showFixed, setShowFixed] = useState(false);
-
   return (
     <div className="question-container">
       <div className="question-header">
